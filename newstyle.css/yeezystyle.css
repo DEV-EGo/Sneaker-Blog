@@ -1,0 +1,45 @@
+html {
+    background-color: rgba(112, 71, 71, 0.328);
+}
+
+.h1{
+    color: black;
+}
+
+#left{
+float: left;
+width: 33.3%;
+color: #fff;
+background: #30948d;
+}
+
+#middle {
+    
+
+}
+
+#right {
+
+}
+.content1 {
+    float: left;
+    
+}
+
+.content2 {
+    float: left;
+}
+
+.content3{
+    float: left;
+}
+
+.copyright {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
