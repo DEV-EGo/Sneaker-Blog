@@ -6,12 +6,42 @@ html {
     color: black;
 }
 
-header{
+#fixed_title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    background: #eee;
+}
+
+.wrapper {
+width: 600px;
+padding: 20px;
+margin: 0 auto;
+}
+
+#relative {
+    position: relative;
+    height: 200px;
     padding: 20px;
     margin-bottom: 20px;
-    color: #333;
-    background: #FFA500;
+    text-align: center;
+    background: #eee;
 }
+
+#absolute {
+position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background: #999;
+}
+
+
 
 #left{
 float: left;
