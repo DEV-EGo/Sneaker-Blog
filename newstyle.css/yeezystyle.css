@@ -1,5 +1,12 @@
-html {
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+html, body {
     background-color: rgba(112, 71, 71, 0.328);
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
 }
 
 .h1{
@@ -41,7 +48,11 @@ position: absolute;
   background: #999;
 }
 
-
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffa500;
+}
 
 #left{
 float: left;
@@ -67,11 +78,17 @@ background: #30948d;
 
 #info {
     width: 100%;
-    overflow: auto;
-    clear: both;
-    color: #fff;
-    background: #394549;
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: #394549;
 }
+
+#division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #214fb3;
+  }
 
 .aside {
     float: left;
@@ -98,7 +115,7 @@ background: #30948d;
 }
 
 .copyright {
-    float: right;
+    float: left;
 }
 
 .clearfix::after {
