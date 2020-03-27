@@ -77,7 +77,7 @@ background: #30948d;
 }
 
 #info {
-    width: 100%;
+  width: 100%;
   overflow: auto;
   clear: both;
   color: #fff;
@@ -90,7 +90,7 @@ background: #30948d;
     background: #214fb3;
   }
 
-.aside {
+aside {
     float: left;
     width: 33%;
     height: 200px;
@@ -112,6 +112,12 @@ background: #30948d;
 
 .content3{
     float: left;
+}
+
+footer { 
+    padding: 20px;
+    clear: both;
+    background: #ffa500;
 }
 
 .copyright {
