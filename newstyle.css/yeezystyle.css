@@ -3,14 +3,63 @@
     text-align: center;
 }
 html, body{
-    background-color: rgba(112, 71, 71, 0.328);
+    background-color: black;
     font-size: 24px;
     line-height: 32px;
     color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", Times, Serif;
+    font-size: 18px;
+    line-height: 150%;
 }
 
-.h1{
+/* h1{
     color: black;
+} */
+
+h1, h2 {
+    color: #efeee7;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+
+}
+
+h2{
+    font-size: 24px;
+}
+
+a {
+    color: #d21034;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#sneaker-file, #contact-info {
+    float: left;
+}
+
+img {
+    margin-right: 20px ;
+    width: 200px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#sneaker-file {
+    width: 60%;
+}
+
+#contact-file {
+    width: 40%;
 }
 
 #fixed_title {
@@ -40,8 +89,8 @@ margin: 0 auto;
 
 #absolute {
 position: absolute;
-  right: -30px;
-  bottom: 0;
+  right: -80px;
+  bottom: -16px;
   width: 250px;
   padding: 20px;
   text-align: center;
@@ -51,7 +100,7 @@ position: absolute;
 section {
     padding: 20px;
     margin-bottom: 20px;
-    background: #ffa500;
+    background: #6178b8ca;
 }
 
 #left{
@@ -93,7 +142,7 @@ background: #30948d;
 aside {
     float: left;
     width: 33%;
-    height: 200px;
+    height: 255px;
     padding: 20px;
     margin-left: 30px;
     text-decoration-color: white;
@@ -121,7 +170,8 @@ footer {
 }
 
 .copyright {
-    float: left;
+    float: center;
+
 }
 
 .clearfix::after {
