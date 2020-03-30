@@ -69,7 +69,8 @@ img {
     padding: 40px;
     margin: 0;
     text-align: center;
-    background: #eee;
+    opacity: 0.6;
+    /* background: #eee; */
 }
 
 .wrapper {
@@ -89,12 +90,12 @@ margin: 0 auto;
 
 #absolute {
 position: absolute;
-  right: -80px;
-  bottom: -16px;
+  right: -115px;
+  bottom: -40px;
   width: 250px;
   padding: 20px;
   text-align: center;
-  background: #999;
+  /* background: #999; */
 }
 
 section {
