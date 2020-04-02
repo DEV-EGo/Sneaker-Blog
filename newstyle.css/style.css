@@ -11,6 +11,11 @@
     clear: both;
 }
 
+.jumbotron {
+    margin-top: 20px;
+    background-image: url("https://media.giphy.com/media/JKXuKrmDLZA9q/giphy.gif");
+}
+
 body {
     background: #292929;
     font-family: Arial, Helvetica, sans-serif;
