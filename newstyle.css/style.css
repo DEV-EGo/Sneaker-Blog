@@ -52,7 +52,9 @@ h2{
 }
 
 .author-text{
-    columns: white ;
+    font-family: 'Tangerine', serif;
+
+    color: white ;
     font-size: 22px;
     float: left;
     margin-top: 35px;
