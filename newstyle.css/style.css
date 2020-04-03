@@ -13,7 +13,7 @@
 
 .jumbotron {
     width: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     background-image: url("https://media.giphy.com/media/JKXuKrmDLZA9q/giphy.gif");
     background-color: black;
     background-repeat: no-repeat;
@@ -106,11 +106,21 @@ h2{
 
 }
 
-#main-content, .container{
+#main-content, #sidebar{
 
     width: auto;
-    padding: 30p;
+    height: auto;
+    /* padding: 30px; */
 
+}
+
+#main-content{
+float: left;
+}
+
+#sidebar {
+    float: right;
+    width: auto;
 }
 
 .blog-post{
