@@ -12,8 +12,13 @@
 }
 
 .jumbotron {
+    width: auto;
     margin-top: 20px;
     background-image: url("https://media.giphy.com/media/JKXuKrmDLZA9q/giphy.gif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
 }
 
 body {
