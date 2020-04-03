@@ -46,6 +46,7 @@ h2{
     font-family: 'Press Start 2P', cursive;
 }
 
+
 .main-text{
     text-align: justify;
     color: white;
@@ -120,9 +121,13 @@ h2{
 }
 .top-rightpost{
     color: white;
-    /* background-color: green; */
     width: 25%;
     float: left;
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 .author-box{
@@ -139,6 +144,7 @@ h2{
     /* creating a distance between the boxes below */
     margin-bottom: 40px;
     text-align: center;
+    
 }
 
 .side-info{
