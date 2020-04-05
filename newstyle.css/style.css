@@ -119,7 +119,8 @@ float: left;
 }
 
 #sidebar {
-    float: right;
+    
+    /* float: right; */
     width: auto;
 }
 
