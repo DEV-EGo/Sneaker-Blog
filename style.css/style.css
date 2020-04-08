@@ -196,6 +196,21 @@ right: 30px;
 
 /* ---------------------CONTACT------------------------------------ */
 
+#Contact-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    }
+    
+    .main-section {
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding:30px;
+        margin: 0 0 40px;
+        background: #ffff;
+        border: 1px solid #dddddd;
+    }
+    
 #Contact-form ul {
     margin-bottom: 20px;
 }
@@ -205,15 +220,15 @@ right: 30px;
 }
 
 label, 
-input [type=text],
-input [type=email],
+input[type= text],
+input[type= email],
 textarea {
     display: block;
     width: 100%;
 }
 
-input [type=text],
-input [type=email],
+input[type= text],
+input[type= email],
 textarea {
     height: 35px;
     padding: 0 10px;
@@ -235,21 +250,6 @@ input[type=submit] {
     
 }
 
-
-#Contact-container {
-padding-top: 130px;
-min-height: calc(100vh - 70px);
-}
-
-.main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding:30px;
-    margin: 0 0 40px;
-    background: #ffff;
-    border: 1px solid #dddddd;
-}
 
 
 @media screen and (max-width: 1140px) {
