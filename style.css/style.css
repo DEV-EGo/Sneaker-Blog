@@ -197,7 +197,7 @@ right: 30px;
 /* ---------------------CONTACT------------------------------------ */
 
 #Contact-container {
-    padding-top: 130px;
+    padding-top: 150px;
     min-height: calc(100vh - 70px);
     }
     
@@ -210,7 +210,7 @@ right: 30px;
         background: #ffff;
         border: 1px solid #dddddd;
     }
-    
+
 #Contact-form ul {
     margin-bottom: 20px;
 }
