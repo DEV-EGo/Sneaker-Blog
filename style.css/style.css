@@ -196,12 +196,17 @@ right: 30px;
 
 /* ---------------------CONTACT------------------------------------ */
 
+
 #Contact-container {
     padding-top: 150px;
     min-height: calc(100vh - 70px);
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
     }
     
-    .main-section {
+.main-section {
         float: left;
         width: 100%;
         max-width: 960px;
