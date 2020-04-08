@@ -46,6 +46,14 @@ h2{
     font-family: 'Press Start 2P', cursive;
 }
 
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
 
 .main-text{
     text-align: justify;
@@ -224,6 +232,23 @@ input[type=submit] {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+    
+}
+
+
+#Contact-container {
+padding-top: 130px;
+min-height: calc(100vh - 70px);
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding:30px;
+    margin: 0 0 40px;
+    background: #ffff;
+    border: 1px solid #dddddd;
 }
 
 
