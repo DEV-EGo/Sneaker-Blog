@@ -198,3 +198,15 @@ right: 30px;
         width: auto;
     }
 } 
+
+/* ---------------------contact form start here---------------------- */
+
+#Contact-form ul {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#Contact-form li {
+    margin-bottom: 10px;
+}
+
