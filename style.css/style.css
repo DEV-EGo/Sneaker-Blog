@@ -195,7 +195,13 @@ right: 30px;
 }
 
 /* ---------------------CONTACT------------------------------------ */
-
+#bear {
+    float: right;
+    position: absolute;
+    width: 215px;
+    margin: 2rem 109rem;
+    /* padding: 0 0 10px; */
+}
 
 #Contact-container {
     padding-top: 150px;
@@ -262,8 +268,10 @@ input[type=submit] {
         background: #292929;
 
     }
-    .container {
+    .container,
+    .Contact-container {
         width: auto;
     }
+  
 } 
 
