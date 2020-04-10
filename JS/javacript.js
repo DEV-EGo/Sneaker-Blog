@@ -1,1 +1,1 @@
-$("test").alert("close");
+alert("test");
